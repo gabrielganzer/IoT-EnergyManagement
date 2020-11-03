@@ -1,0 +1,220 @@
+\hypertarget{psm_8h}{}\doxysection{inc/psm.h File Reference}
+\label{psm_8h}\index{inc/psm.h@{inc/psm.h}}
+
+
+Functions related to power state machines.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structpsm__interval__t}{psm\+\_\+interval\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Container for time intervals. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structpsm__t}{psm\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Container for power state machine parameters. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{psm_8h_a7852bbd44df8904e0d37cbb010963bc7}\label{psm_8h_a7852bbd44df8904e0d37cbb010963bc7}} 
+\#define \mbox{\hyperlink{psm_8h_a7852bbd44df8904e0d37cbb010963bc7}{P\+S\+M\+\_\+\+N\+\_\+\+S\+T\+A\+T\+ES}}~3
+\begin{DoxyCompactList}\small\item\em Number of states in the P\+SM. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group__psm__unit_ga609b18fe8d7b58c9bdf67937140c89de}{P\+S\+M\+\_\+\+T\+I\+M\+E\+\_\+\+U\+N\+IT}}~1e-\/06
+\item 
+\#define \mbox{\hyperlink{group__psm__unit_gacb7421dbaaab12b90ad3d437a6dae807}{P\+S\+M\+\_\+\+P\+O\+W\+E\+R\+\_\+\+U\+N\+IT}}~1e-\/03
+\item 
+\#define \mbox{\hyperlink{group__psm__unit_ga440ed5f79c92242a48191707afdd3dd2}{P\+S\+M\+\_\+\+E\+N\+E\+R\+G\+Y\+\_\+\+U\+N\+IT}}~1e-\/06
+\item 
+\#define \mbox{\hyperlink{group__psm__state_gac88f86079b20730fb1c8507d1f5856bf}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+A\+C\+T\+I\+VE}}~0
+\item 
+\#define \mbox{\hyperlink{group__psm__state_gace16e0474d1051bb84b769bbb5e247a6}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+I\+D\+LE}}~1
+\item 
+\#define \mbox{\hyperlink{group__psm__state_ga22999ff8b2b1fcd9aebca53cb3ed82dd}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+S\+L\+E\+EP}}~2
+\item 
+\#define \mbox{\hyperlink{psm_8h_a9cb2f5024d234bace1e6a5d86a6b4d69}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+N\+A\+ME}}(val)~(val == \mbox{\hyperlink{group__psm__state_gac88f86079b20730fb1c8507d1f5856bf}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+A\+C\+T\+I\+VE}} ? \char`\"{}Run\char`\"{} \+: (val == \mbox{\hyperlink{group__psm__state_gace16e0474d1051bb84b769bbb5e247a6}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+I\+D\+LE}} ? \char`\"{}Idle\char`\"{} \+: \char`\"{}Sleep\char`\"{} ))
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef int \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}
+\item 
+typedef double \mbox{\hyperlink{group__psm__type_gaa86b7e9d3e627cccf6bcd5fc355ae44c}{psm\+\_\+time\+\_\+t}}
+\item 
+typedef double \mbox{\hyperlink{group__psm__type_gaeaa8d21a0c6846575274b917e706fad3}{psm\+\_\+energy\+\_\+t}}
+\item 
+typedef double \mbox{\hyperlink{group__psm__type_ga7fbd9eadbf26d054cb48b9f833fe3f64}{psm\+\_\+power\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{psm_8h_ad5c00c61f8f4d194ffe789410b023625}{psm\+\_\+read}} (\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} $\ast$p, char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Read a file containing power state machine specifications and fill a data structure accordingly. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{psm_8h_a4793756320e0e0bc13167956cd0a2914}{psm\+\_\+print}} (\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} p)
+\begin{DoxyCompactList}\small\item\em Print a psm specification from a container structure. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{psm_8h_a8278c6a0a7065b0fd9489a0edd73467a}{psm\+\_\+tran\+\_\+allowed}} (\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} psm, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} curr, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} next)
+\begin{DoxyCompactList}\small\item\em Check if a transition between two states is allowed or not in a psm specification. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__psm__type_gaeaa8d21a0c6846575274b917e706fad3}{psm\+\_\+energy\+\_\+t}} \mbox{\hyperlink{psm_8h_a01a0a0dd2f228d86ee7309359809c142}{psm\+\_\+tran\+\_\+energy}} (\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} psm, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} curr, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} next)
+\begin{DoxyCompactList}\small\item\em Compute transition energy when moving from a psm state to another. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__psm__type_gaa86b7e9d3e627cccf6bcd5fc355ae44c}{psm\+\_\+time\+\_\+t}} \mbox{\hyperlink{psm_8h_a214198020370e577e3a2c236f20c2d37}{psm\+\_\+tran\+\_\+time}} (\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} psm, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} curr, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} next)
+\begin{DoxyCompactList}\small\item\em Compute transition time when moving from a psm state to another. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__psm__type_gaeaa8d21a0c6846575274b917e706fad3}{psm\+\_\+energy\+\_\+t}} \mbox{\hyperlink{psm_8h_a35ce9b98f2d257d8378514a911e585d5}{psm\+\_\+state\+\_\+energy}} (\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} psm, \mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}} curr)
+\begin{DoxyCompactList}\small\item\em Compute energy consumption per time unit in a give psm state. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__psm__type_gaa86b7e9d3e627cccf6bcd5fc355ae44c}{psm\+\_\+time\+\_\+t}} \mbox{\hyperlink{psm_8h_ae5cea2114a8b8341c6a9b466fd89c663}{psm\+\_\+duration}} (\mbox{\hyperlink{structpsm__interval__t}{psm\+\_\+interval\+\_\+t}} i)
+\begin{DoxyCompactList}\small\item\em Compute the duration of a time interval. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions related to power state machines. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{psm_8h_a9cb2f5024d234bace1e6a5d86a6b4d69}\label{psm_8h_a9cb2f5024d234bace1e6a5d86a6b4d69}} 
+\index{psm.h@{psm.h}!PSM\_STATE\_NAME@{PSM\_STATE\_NAME}}
+\index{PSM\_STATE\_NAME@{PSM\_STATE\_NAME}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{PSM\_STATE\_NAME}{PSM\_STATE\_NAME}}
+{\footnotesize\ttfamily \#define P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+N\+A\+ME(\begin{DoxyParamCaption}\item[{}]{val }\end{DoxyParamCaption})~(val == \mbox{\hyperlink{group__psm__state_gac88f86079b20730fb1c8507d1f5856bf}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+A\+C\+T\+I\+VE}} ? \char`\"{}Run\char`\"{} \+: (val == \mbox{\hyperlink{group__psm__state_gace16e0474d1051bb84b769bbb5e247a6}{P\+S\+M\+\_\+\+S\+T\+A\+T\+E\+\_\+\+I\+D\+LE}} ? \char`\"{}Idle\char`\"{} \+: \char`\"{}Sleep\char`\"{} ))}
+
+A (bad) macro to convert state I\+Ds to names 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{psm_8h_ae5cea2114a8b8341c6a9b466fd89c663}\label{psm_8h_ae5cea2114a8b8341c6a9b466fd89c663}} 
+\index{psm.h@{psm.h}!psm\_duration@{psm\_duration}}
+\index{psm\_duration@{psm\_duration}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_duration()}{psm\_duration()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__psm__type_gaa86b7e9d3e627cccf6bcd5fc355ae44c}{psm\+\_\+time\+\_\+t}} psm\+\_\+duration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__interval__t}{psm\+\_\+interval\+\_\+t}}}]{i }\end{DoxyParamCaption})}
+
+
+
+Compute the duration of a time interval. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & the input time interval\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the duration as a psm\+\_\+time\+\_\+t value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{psm_8h_a4793756320e0e0bc13167956cd0a2914}\label{psm_8h_a4793756320e0e0bc13167956cd0a2914}} 
+\index{psm.h@{psm.h}!psm\_print@{psm\_print}}
+\index{psm\_print@{psm\_print}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_print()}{psm\_print()}}
+{\footnotesize\ttfamily void psm\+\_\+print (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Print a psm specification from a container structure. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & source container \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{psm_8h_ad5c00c61f8f4d194ffe789410b023625}\label{psm_8h_ad5c00c61f8f4d194ffe789410b023625}} 
+\index{psm.h@{psm.h}!psm\_read@{psm\_read}}
+\index{psm\_read@{psm\_read}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_read()}{psm\_read()}}
+{\footnotesize\ttfamily int psm\+\_\+read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}} $\ast$}]{p,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+
+
+Read a file containing power state machine specifications and fill a data structure accordingly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & destination container \\
+\hline
+{\em filename} & name of the file to read\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\mbox{\Hypertarget{psm_8h_a35ce9b98f2d257d8378514a911e585d5}\label{psm_8h_a35ce9b98f2d257d8378514a911e585d5}} 
+\index{psm.h@{psm.h}!psm\_state\_energy@{psm\_state\_energy}}
+\index{psm\_state\_energy@{psm\_state\_energy}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_state\_energy()}{psm\_state\_energy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__psm__type_gaeaa8d21a0c6846575274b917e706fad3}{psm\+\_\+energy\+\_\+t}} psm\+\_\+state\+\_\+energy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}}}]{psm,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{curr }\end{DoxyParamCaption})}
+
+
+
+Compute energy consumption per time unit in a give psm state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em psm} & the power state machine specification \\
+\hline
+{\em curr} & the current psm state\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the energy consumed in a \char`\"{}\+P\+S\+M\+\_\+\+T\+I\+M\+E\+\_\+\+U\+N\+I\+T\char`\"{} unit of time 
+\end{DoxyReturn}
+\mbox{\Hypertarget{psm_8h_a8278c6a0a7065b0fd9489a0edd73467a}\label{psm_8h_a8278c6a0a7065b0fd9489a0edd73467a}} 
+\index{psm.h@{psm.h}!psm\_tran\_allowed@{psm\_tran\_allowed}}
+\index{psm\_tran\_allowed@{psm\_tran\_allowed}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_tran\_allowed()}{psm\_tran\_allowed()}}
+{\footnotesize\ttfamily int psm\+\_\+tran\+\_\+allowed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}}}]{psm,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{curr,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{next }\end{DoxyParamCaption})}
+
+
+
+Check if a transition between two states is allowed or not in a psm specification. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em psm} & the power state machine specification \\
+\hline
+{\em curr} & the source psm state \\
+\hline
+{\em next} & the target psm state\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if the transition is allowed, 0 otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{psm_8h_a01a0a0dd2f228d86ee7309359809c142}\label{psm_8h_a01a0a0dd2f228d86ee7309359809c142}} 
+\index{psm.h@{psm.h}!psm\_tran\_energy@{psm\_tran\_energy}}
+\index{psm\_tran\_energy@{psm\_tran\_energy}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_tran\_energy()}{psm\_tran\_energy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__psm__type_gaeaa8d21a0c6846575274b917e706fad3}{psm\+\_\+energy\+\_\+t}} psm\+\_\+tran\+\_\+energy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}}}]{psm,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{curr,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{next }\end{DoxyParamCaption})}
+
+
+
+Compute transition energy when moving from a psm state to another. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em psm} & the power state machine specification \\
+\hline
+{\em curr} & the source psm state \\
+\hline
+{\em next} & the target psm state\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the transition energy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{psm_8h_a214198020370e577e3a2c236f20c2d37}\label{psm_8h_a214198020370e577e3a2c236f20c2d37}} 
+\index{psm.h@{psm.h}!psm\_tran\_time@{psm\_tran\_time}}
+\index{psm\_tran\_time@{psm\_tran\_time}!psm.h@{psm.h}}
+\doxysubsubsection{\texorpdfstring{psm\_tran\_time()}{psm\_tran\_time()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__psm__type_gaa86b7e9d3e627cccf6bcd5fc355ae44c}{psm\+\_\+time\+\_\+t}} psm\+\_\+tran\+\_\+time (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpsm__t}{psm\+\_\+t}}}]{psm,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{curr,  }\item[{\mbox{\hyperlink{group__psm__type_gab3c5521443d52fa6d51222008bb2057e}{psm\+\_\+state\+\_\+t}}}]{next }\end{DoxyParamCaption})}
+
+
+
+Compute transition time when moving from a psm state to another. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em psm} & the power state machine specification \\
+\hline
+{\em curr} & the source psm state \\
+\hline
+{\em next} & the target psm state\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the transition time 
+\end{DoxyReturn}
