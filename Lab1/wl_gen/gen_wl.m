@@ -18,7 +18,7 @@ for i = 1:samples
 end
 histogram(idle_high, 'BinMethod', 'integers', 'Normalization', 'pdf');
 saveas(gcf,'Idle_High.png');
-dlmwrite('wl1.txt', [active' idle_high']);
+save_wl(active,idle_high,'wl_high.txt', samples);
 
 % Idle Low: uniform dist (max = 1us, max = 400us)
 pdf3 = makedist('Uniform', 'Lower', 1, 'Upper', 400);
@@ -28,7 +28,7 @@ for i = 1:samples
 end
 histogram(idle_low, 'BinMethod', 'integers', 'Normalization', 'pdf');
 saveas(gcf,'Idle_Low.png');
-dlmwrite('wl2.txt', [active' idle_low']);
+save_wl(active,idle_low,'wl_low.txt', samples);
 
 % Idle Normal: normal dist (mu = 100us, sigma = 20)
 pdf4 = makedist('Normal', 'mu', 100, 'sigma', 20);
@@ -38,7 +38,7 @@ for i = 1:samples
 end
 histogram(idle_normal, 'BinMethod', 'integers', 'Normalization', 'pdf');
 saveas(gcf,'Idle_Normal.png');
-dlmwrite('wl3.txt', [active' idle_normal']);
+save_wl(active,idle_normal,'wl_normal.txt', samples);
 
 % Idle Exponetial: exponential dist (mu = 50us)
 pdf5 = makedist('Exponential', 'mu', 50);
@@ -48,7 +48,7 @@ for i = 1:samples
 end
 histogram(idle_exp, 'BinMethod', 'integers', 'Normalization', 'pdf');
 saveas(gcf,'Idle_Exp.png');
-dlmwrite('wl4.txt', [active' idle_exp']);
+save_wl(active,idle_exp,'wl_exp.txt', samples);
 
 % Idle tri-modal: tri-modal dist (mu = 50us, 100us, 150us; sigma = 10)
 pd1 = makedist('Normal', 'mu', 50, 'sigma', 10);
@@ -67,4 +67,4 @@ for i = 1:samples
 end
 histogram(idle_tri, 'BinMethod', 'integers', 'Normalization', 'pdf');
 saveas(gcf,'Idle_Tri.png');
-dlmwrite('wl5.txt', [active' idle_tri']);
+save_wl(active, idle_tri, 'wl_tri.txt', samples);

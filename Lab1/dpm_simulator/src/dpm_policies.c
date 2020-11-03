@@ -99,13 +99,23 @@ int dpm_decide_state(psm_state_t *next_state, psm_time_t curr_time,
     switch (policy) {
 
         case DPM_TIMEOUT:
-            if(curr_time > idle_period.start + tparams.timeout[0]) {
+		/* Original
+			if(curr_time > idle_period.start + tparams.timeout[0]) {
                 *next_state = PSM_STATE_IDLE;
             } else {
                 *next_state = PSM_STATE_ACTIVE;
             }
-            /* LAB 2 EDIT */
             break;
+		*/
+		// Extended version Lab1/Day-2 
+			if(curr_time > idle_period.start + tparams.timeout[0]) {
+				*next_state = PSM_STATE_IDLE;
+	            if ((tparams.timeout[1] > tparams.timeout[0]) && (curr_time > idle_period.start + tparams.timeout[1]))
+	                *next_state = PSM_STATE_SLEEP;
+			} else {
+				*next_state = PSM_STATE_ACTIVE;
+			}
+			break;
 
         case DPM_HISTORY:
             if(curr_time < idle_period.start) {
