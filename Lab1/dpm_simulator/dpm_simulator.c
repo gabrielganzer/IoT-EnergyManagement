@@ -11,17 +11,18 @@
 int main(int argc, char *argv[]) {
 
     char fwl[MAX_FILENAME];
+	char res[MAX_FILENAME];
     psm_t psm;
     dpm_timeout_params tparams;
     dpm_history_params hparams;
     dpm_policy_t sel_policy;
 
-    if(!parse_args(argc, argv, fwl, &psm, &sel_policy, &tparams, &hparams)) {
+    if(!parse_args(argc, argv, fwl, res, &psm, &sel_policy, &tparams, &hparams)) {
         printf("[error] reading command line arguments\n");
         return -1;
     }
     psm_print(psm);
-	dpm_simulate(psm, sel_policy, tparams, hparams, fwl);
+	dpm_simulate(psm, sel_policy, tparams, hparams, fwl, res);
 
     return 0;
 }

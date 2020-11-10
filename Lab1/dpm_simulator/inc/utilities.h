@@ -25,7 +25,7 @@
  * @return 1 on success, 0 on failure
  *
  */
-int parse_args(int argc, char *argv[], char *fwl, psm_t *psm, dpm_policy_t
+int parse_args(int argc, char *argv[], char *fwl, char *res, psm_t *psm, dpm_policy_t
         *selected_policy, dpm_timeout_params *tparams, dpm_history_params *hparams);
 
 /**

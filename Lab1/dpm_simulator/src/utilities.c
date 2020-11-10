@@ -1,12 +1,12 @@
 #include "inc/utilities.h"
 
-int parse_args(int argc, char *argv[], char *fwl, psm_t *psm, dpm_policy_t
+int parse_args(int argc, char *argv[], char *fwl, char *res, psm_t *psm, dpm_policy_t
         *selected_policy, dpm_timeout_params *tparams, dpm_history_params
         *hparams)
 {
     int cur = 1;
     while(cur < argc) {
-
+		
         if(strcmp(argv[cur], "-help") == 0) {
             print_command_line();
             return 0;
@@ -19,10 +19,11 @@ int parse_args(int argc, char *argv[], char *fwl, psm_t *psm, dpm_policy_t
             if(argc > cur + 2) {
 				// Original To_idle
                 tparams->timeout[0] = atof(argv[++cur]);
-				printf("To_idle = %f\n", tparams->timeout[0]);
+				printf("\n**************************** DPM SIMULATION ****************************\n");
+				printf("Timeout to idle: %f\n", tparams->timeout[0]);
 				// Extended To_sleep
                 tparams->timeout[1] = atof(argv[++cur]);
-				printf("To_sleep = %f\n", tparams->timeout[1]);
+				printf("Timeout to sleep: %f\n", tparams->timeout[1]);
             }
             else return	0;
         }
@@ -55,6 +56,16 @@ int parse_args(int argc, char *argv[], char *fwl, psm_t *psm, dpm_policy_t
             }
             else return	0;
         }
+		
+        // set name of file for storing the results
+        if(strcmp(argv[cur], "-res") == 0) {
+            if(argc > cur + 1)
+            {
+                strcpy(res, argv[++cur]);
+            }
+            else return	0;
+        }
+		
         cur ++;
     }
     return 1;
@@ -63,7 +74,7 @@ int parse_args(int argc, char *argv[], char *fwl, psm_t *psm, dpm_policy_t
 void print_command_line(){
 	printf("\n******************************************************************************\n");
 	printf(" DPM simulator: \n");
-	printf("\t-t <timeout_idle> <timeout_sleep>: timeout of the timeout policy\n");
+	printf("\t-t <timeout_idle> <timeout_sleep>: time to idle & sleep timeout policy\n");
 	printf("\t-h <Value1> …<Value5> <Threshold1> <Threshold2>: history-based policy \n");
 	printf("\t   <Value1-5> value of coefficients\n");
 	printf("\t   <Threshold1-2> predicted time thresholds\n");

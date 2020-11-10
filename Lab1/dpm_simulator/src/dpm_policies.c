@@ -1,10 +1,11 @@
 #include "inc/dpm_policies.h"
 
 int dpm_simulate(psm_t psm, dpm_policy_t sel_policy, dpm_timeout_params
-		tparams, dpm_history_params hparams, char* fwl)
+		tparams, dpm_history_params hparams, char* fwl, char* res)
 {
 
 	FILE *fp;
+	FILE *fpRES;
 	psm_interval_t idle_period;
 	psm_time_t history[DPM_HIST_WIND_SIZE];
 	psm_time_t curr_time = 0;
@@ -88,7 +89,37 @@ int dpm_simulate(psm_t psm, dpm_policy_t sel_policy, dpm_timeout_params
             e_total_no_dpm * PSM_ENERGY_UNIT, e_total * PSM_ENERGY_UNIT);
     printf("[sim] %2.1f percent of energy saved.\n", 100*(e_total_no_dpm - e_total) /
             e_total_no_dpm);
-
+	
+	fpRES = fopen(res, "a+");
+	if(!fpRES) {
+		printf("[error] error opening results.txt\n");
+		return 0;
+	} else {
+		// Time-out to idle
+		fprintf(fpRES, "%3.f ", tparams.timeout[0]);
+		// Time-out to sleep
+		fprintf(fpRES, "%3.f ", tparams.timeout[1]);
+		// Timeout waiting time
+		fprintf(fpRES, "%.6lf ", t_waiting * PSM_TIME_UNIT);
+		// Total time in RUN
+		fprintf(fpRES, "%.6lf ", t_state[0] * PSM_TIME_UNIT);
+		// Total time in IDLE
+		fprintf(fpRES, "%.6lf ", t_state[1] * PSM_TIME_UNIT);
+		// Total time in SLEEP
+		fprintf(fpRES, "%.6lf ", t_state[2] * PSM_TIME_UNIT);
+		// Time overhead for transition
+		fprintf(fpRES, "%.6lf ",t_tran_total * PSM_TIME_UNIT);
+		// No. of transitions
+		fprintf(fpRES, "%d ", n_tran_total);
+		// Energy for transitions
+		fprintf(fpRES, "%.6f ", e_tran_total * PSM_ENERGY_UNIT);
+		// Energy w DPM 
+		fprintf(fpRES, "%.6f ", e_total * PSM_ENERGY_UNIT);
+		// Saving
+		fprintf(fpRES, "%2.1f\n", 100*(e_total_no_dpm - e_total)/e_total_no_dpm);
+	}
+	fclose(fpRES);
+	
 	return 1;
 }
 
