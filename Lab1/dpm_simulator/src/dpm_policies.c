@@ -99,24 +99,16 @@ int dpm_simulate(psm_t psm, dpm_policy_t sel_policy, dpm_timeout_params
 		fprintf(fpRES, "%3.f ", tparams.timeout[0]);
 		// Time-out to sleep
 		fprintf(fpRES, "%3.f ", tparams.timeout[1]);
-		// Timeout waiting time
-		fprintf(fpRES, "%.6lf ", t_waiting * PSM_TIME_UNIT);
 		// Total time in RUN
 		fprintf(fpRES, "%.6lf ", t_state[0] * PSM_TIME_UNIT);
 		// Total time in IDLE
 		fprintf(fpRES, "%.6lf ", t_state[1] * PSM_TIME_UNIT);
 		// Total time in SLEEP
 		fprintf(fpRES, "%.6lf ", t_state[2] * PSM_TIME_UNIT);
-		// Time overhead for transition
-		fprintf(fpRES, "%.6lf ",t_tran_total * PSM_TIME_UNIT);
-		// No. of transitions
-		fprintf(fpRES, "%d ", n_tran_total);
-		// Energy for transitions
-		fprintf(fpRES, "%.6f ", e_tran_total * PSM_ENERGY_UNIT);
 		// Energy w DPM 
-		fprintf(fpRES, "%.6f ", e_total * PSM_ENERGY_UNIT);
+		fprintf(fpRES, "%.6lf ", e_total * PSM_ENERGY_UNIT);
 		// Saving
-		fprintf(fpRES, "%2.1f\n", 100*(e_total_no_dpm - e_total)/e_total_no_dpm);
+		fprintf(fpRES, "%2.2f\n", 100*(e_total_no_dpm - e_total)/e_total_no_dpm);
 	}
 	fclose(fpRES);
 	
