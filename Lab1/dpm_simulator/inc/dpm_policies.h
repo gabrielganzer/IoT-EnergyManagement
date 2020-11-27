@@ -15,7 +15,7 @@
 /** number of timeouts for timeout-based policies */
 #define DPM_N_TIMEOUTS 2
 /** history window size for history-based policies */
-#define DPM_HIST_WIND_SIZE 5
+#define DPM_HIST_WIND_SIZE 3
 /** number of thresholds for history-based policies */
 #define DPM_N_THRESHOLDS 2
 /** @} */

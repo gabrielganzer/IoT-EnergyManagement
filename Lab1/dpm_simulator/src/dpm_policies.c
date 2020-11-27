@@ -1,4 +1,6 @@
 #include "inc/dpm_policies.h"
+#include <stdio.h>
+#include <math.h>
 
 int dpm_simulate(psm_t psm, dpm_policy_t sel_policy, dpm_timeout_params
 		tparams, dpm_history_params hparams, char* fwl, char* res)
@@ -117,8 +119,10 @@ int dpm_simulate(psm_t psm, dpm_policy_t sel_policy, dpm_timeout_params
 
 int dpm_decide_state(psm_state_t *next_state, psm_time_t curr_time,
         psm_interval_t idle_period, psm_time_t *history, dpm_policy_t policy,
-        dpm_timeout_params tparams, dpm_history_params hparams)
-{
+        dpm_timeout_params tparams, dpm_history_params hparams) {
+			
+	double value_prediction;
+	
     switch (policy) {
 
         case DPM_TIMEOUT:
@@ -145,10 +149,18 @@ int dpm_decide_state(psm_state_t *next_state, psm_time_t curr_time,
                 *next_state = PSM_STATE_ACTIVE;
             } else {
                 *next_state = PSM_STATE_ACTIVE;
-                /* LAB 3 EDIT */
-                // hparams.alpha[i] * history[i] ....
-                //if(value_prediction ...)
-                //    *next_state = PSM_STATE_ACTIVE; ...
+                value_prediction = hparams.alpha[0] * pow(history[2], 2) + hparams.alpha[1] * history[1] + hparams.alpha[2];
+				
+				if (value_prediction >= (double)hparams.threshold[0]) {
+					*next_state = PSM_STATE_IDLE;
+				    
+					if ((value_prediction >= (double)hparams.threshold[0]) && (value_prediction >= (double)hparams.threshold[1]) && (hparams.threshold[1] > hparams.threshold[0])) {
+						*next_state = PSM_STATE_SLEEP;
+					}
+				}
+				else {
+					*next_state = PSM_STATE_ACTIVE;
+				}
             }
             break;
 
