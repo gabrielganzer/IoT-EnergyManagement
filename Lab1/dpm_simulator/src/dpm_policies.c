@@ -97,18 +97,20 @@ int dpm_simulate(psm_t psm, dpm_policy_t sel_policy, dpm_timeout_params
 		printf("[error] error opening results.txt\n");
 		return 0;
 	} else {
-		// Time-out to idle
-		fprintf(fpRES, "%3.f ", tparams.timeout[0]);
-		// Time-out to sleep
-		fprintf(fpRES, "%3.f ", tparams.timeout[1]);
-		// Total time in RUN
-		fprintf(fpRES, "%.6lf ", t_state[0] * PSM_TIME_UNIT);
-		// Total time in IDLE
-		fprintf(fpRES, "%.6lf ", t_state[1] * PSM_TIME_UNIT);
-		// Total time in SLEEP
-		fprintf(fpRES, "%.6lf ", t_state[2] * PSM_TIME_UNIT);
-		// Energy w DPM 
-		fprintf(fpRES, "%.6lf ", e_total * PSM_ENERGY_UNIT);
+		if (sel_policy == DPM_TIMEOUT) {
+			// Time-out to idle
+			fprintf(fpRES, "%3.f;", tparams.timeout[0]);
+			// Time-out to sleep
+			fprintf(fpRES, "%3.f;", tparams.timeout[1]);
+		}
+		else if (sel_policy == DPM_HISTORY) {
+			// Threshold0
+			fprintf(fpRES, "%3.f;", hparams.threshold[0]);
+			// Threshold1
+			fprintf(fpRES, "%3.f;", hparams.threshold[1]);
+		}
+	    for(int i = 0; i < PSM_N_STATES; i++)
+	        fprintf(fpRES, "%.6lf;", t_state[i] * PSM_TIME_UNIT);
 		// Saving
 		fprintf(fpRES, "%2.2f\n", 100*(e_total_no_dpm - e_total)/e_total_no_dpm);
 	}
@@ -149,18 +151,12 @@ int dpm_decide_state(psm_state_t *next_state, psm_time_t curr_time,
                 *next_state = PSM_STATE_ACTIVE;
             } else {
                 *next_state = PSM_STATE_ACTIVE;
-                value_prediction = hparams.alpha[0] * pow(history[2], 2) + hparams.alpha[1] * history[1] + hparams.alpha[2];
-				
-				if (value_prediction >= (double)hparams.threshold[0]) {
+                //value_prediction = hparams.alpha[1] * history[0] + hparams.alpha[1];
+				value_prediction = hparams.alpha[0] * pow(history[2], 2) + hparams.alpha[1] * history[1] + hparams.alpha[2];
+				if (value_prediction >= (double)hparams.threshold[0])
 					*next_state = PSM_STATE_IDLE;
-				    
-					if ((value_prediction >= (double)hparams.threshold[0]) && (value_prediction >= (double)hparams.threshold[1]) && (hparams.threshold[1] > hparams.threshold[0])) {
-						*next_state = PSM_STATE_SLEEP;
-					}
-				}
-				else {
-					*next_state = PSM_STATE_ACTIVE;
-				}
+				if ((value_prediction >= (double)hparams.threshold[0]) && (value_prediction >= (double)hparams.threshold[1]) && (hparams.threshold[1] > hparams.threshold[0]))
+					*next_state = PSM_STATE_SLEEP;
             }
             break;
 

@@ -38,9 +38,9 @@ int parse_args(int argc, char *argv[], char *fwl, char *res, psm_t *psm, dpm_pol
                 }
                 hparams->threshold[0] = atof(argv[++cur]);
                 hparams->threshold[1] = atof(argv[++cur]);
-				printf("Alpha0: %f\n", hparams->alpha[0]);
-				printf("Alpha1: %f\n", hparams->alpha[1]);
-				printf("Alpha2: %f\n", hparams->alpha[2]);
+				printf("K0: %f\n", hparams->alpha[0]);
+				printf("K1: %f\n", hparams->alpha[1]);
+				printf("K2: %f\n", hparams->alpha[2]);
 				printf("Threshold0: %f\n", hparams->threshold[0]);
 				printf("Threshold1: %f\n", hparams->threshold[1]);
             } else return 0;

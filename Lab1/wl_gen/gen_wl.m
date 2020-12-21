@@ -20,7 +20,7 @@ histogram(idle_high, 'BinMethod', 'integers', 'Normalization', 'pdf');
 saveas(gcf,'Idle_High.png');
 save_wl(active,idle_high,'wl_high.txt', samples);
 
-% Idle Low: uniform dist (max = 1us, max = 400us)
+% Idle Low: uniform dist (min = 1us, max = 400us)
 pdf3 = makedist('Uniform', 'Lower', 1, 'Upper', 400);
 idle_low = zeros(1, samples);
 for i = 1:samples
