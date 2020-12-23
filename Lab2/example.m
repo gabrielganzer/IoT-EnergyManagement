@@ -1,9 +1,9 @@
-clear all
+%clear all
 
 SATURATED = 1;
 DISTORTED = 2;
 
-load('Sample_cell_current.mat');
+load('sample_cell_current.mat');
 Vdd = 12;
 
 %get displayed RGB image with cell current and supply voltage with two mode
