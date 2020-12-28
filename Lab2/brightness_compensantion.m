@@ -7,8 +7,8 @@ function newImg = brightness_compensantion(img, VddOrg,VddNew)
     newV = zeros(n);
     for i = 1:n(1)
         for j = 1:n(2)
-            %newV(i,j) = min(1, V(i,j)+b);
-            newV(i,j) = V(i,j)+b;
+            newV(i,j) = min(1, V(i,j)+b);
+            %newV(i,j) = V(i,j)+b;
         end
     end
     
