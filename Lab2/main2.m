@@ -75,7 +75,7 @@ for i = 1:n(1)
     end
 end
  
-Concurrent brightness compensation and contrast enhancement
+% Concurrent brightness compensation and contrast enhancement
 concurrentImages = cell(n(1),5);
 concurrentDisplay = cell(n(1),5);
 concurrentPower = zeros(n(1),5);

@@ -7,15 +7,8 @@ if ~isfolder(folder)
 end
 pattern = fullfile(folder, extension);
 files = dir(pattern);
-
 for k = 1:length(files)
   baseName = files(k).name;
   fullName = fullfile(folder, baseName);
   array{k} = imread(fullName);
-  n = size(size(array{k}));
-  if n(2) < 3
-      array{k} = uint8(cat(3, array{k}, array{k}, array{k}));
-  end
-  %imshow(imageArray);  % Display image.
-  %drawnow; % Force display to update immediately.
 end

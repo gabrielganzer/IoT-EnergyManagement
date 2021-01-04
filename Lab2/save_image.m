@@ -13,6 +13,6 @@ function save_image(img, title, filename)
     bar(hist(:,1), 'FaceColor', [1 0 0]);
     bar(hist(:,2), 'FaceColor', [0 1 0]);
     bar(hist(:,3), 'FaceColor', [0 0 1]);
-    saveas(gcf, filename);
+    %saveas(gcf, filename);
     
 end
