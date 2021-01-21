@@ -9,12 +9,37 @@ transmit_time = 24;
 mc_time = 6; 
 
 % activation delay
+
 % parallel exec
-air_delay = 0; 
+% air_delay = 0; 
+% methane_delay = 0; 
+% temp_delay = 0; 
+% mic_delay = 0;
+% mc_delay = 30; 
+% transmit_delay = mc_delay + mc_time;
+
+% serial exec
+% air_delay = 0; 
+% methane_delay = air_time; 
+% temp_delay = methane_delay + methane_time; 
+% mic_delay = temp_delay + temp_time; 
+% mc_delay = mic_delay + mic_time; 
+% transmit_delay = mc_delay + mc_time;
+
+% % custom scheduling exec
+% air_delay = 0; 
+% methane_delay = air_time; 
+% temp_delay = air_time; 
+% mic_delay = 0;
+% mc_delay = methane_delay + methane_time; 
+% transmit_delay = mc_delay + mc_time;
+
+% % custom scheduling exec
+air_delay = methane_time;
 methane_delay = 0; 
-temp_delay = 0; 
+temp_delay = methane_time;
 mic_delay = 0;
-mc_delay = 30; 
+mc_delay = air_delay + air_time; 
 transmit_delay = mc_delay + mc_time;
 
 % period
