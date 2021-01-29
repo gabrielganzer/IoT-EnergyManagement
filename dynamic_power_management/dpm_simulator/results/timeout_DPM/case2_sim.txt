@@ -1,0 +1,1224 @@
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 0.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.005000s
+[sim] Total time in state Run = 1.259019s
+[sim] Total time in state Idle = 1.003974s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.099710s
+[sim] N. of transitions = 9971
+[sim] Energy for transitions = 0.099710J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.653516J
+[sim] 27.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 8.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.044607s
+[sim] Total time in state Run = 1.298626s
+[sim] Total time in state Idle = 0.964367s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.098010s
+[sim] N. of transitions = 9801
+[sim] Energy for transitions = 0.098010J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.665679J
+[sim] 26.5 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 16.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.083427s
+[sim] Total time in state Run = 1.337446s
+[sim] Total time in state Idle = 0.925547s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.095970s
+[sim] N. of transitions = 9597
+[sim] Energy for transitions = 0.095970J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.677226J
+[sim] 25.2 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 24.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.121431s
+[sim] Total time in state Run = 1.375450s
+[sim] Total time in state Idle = 0.887543s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.093790s
+[sim] N. of transitions = 9379
+[sim] Energy for transitions = 0.093790J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.688347J
+[sim] 24.0 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 32.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.158582s
+[sim] Total time in state Run = 1.412601s
+[sim] Total time in state Idle = 0.850392s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.091830s
+[sim] N. of transitions = 9183
+[sim] Energy for transitions = 0.091830J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.699390J
+[sim] 22.7 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 40.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.195028s
+[sim] Total time in state Run = 1.449047s
+[sim] Total time in state Idle = 0.813946s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.090110s
+[sim] N. of transitions = 9011
+[sim] Energy for transitions = 0.090110J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.710426J
+[sim] 21.5 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 48.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.230704s
+[sim] Total time in state Run = 1.484723s
+[sim] Total time in state Idle = 0.778270s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.088150s
+[sim] N. of transitions = 8815
+[sim] Energy for transitions = 0.088150J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.720953J
+[sim] 20.4 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 56.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.265618s
+[sim] Total time in state Run = 1.519637s
+[sim] Total time in state Idle = 0.743356s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.086090s
+[sim] N. of transitions = 8609
+[sim] Energy for transitions = 0.086090J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.731113J
+[sim] 19.2 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 64.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.299675s
+[sim] Total time in state Run = 1.553694s
+[sim] Total time in state Idle = 0.709299s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.083790s
+[sim] N. of transitions = 8379
+[sim] Energy for transitions = 0.083790J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.740733J
+[sim] 18.2 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 72.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.332812s
+[sim] Total time in state Run = 1.586831s
+[sim] Total time in state Idle = 0.676162s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.081570s
+[sim] N. of transitions = 8157
+[sim] Energy for transitions = 0.081570J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.750111J
+[sim] 17.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 80.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.365094s
+[sim] Total time in state Run = 1.619113s
+[sim] Total time in state Idle = 0.643880s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.079670s
+[sim] N. of transitions = 7967
+[sim] Energy for transitions = 0.079670J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.759509J
+[sim] 16.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 88.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.396646s
+[sim] Total time in state Run = 1.650665s
+[sim] Total time in state Idle = 0.612328s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.077930s
+[sim] N. of transitions = 7793
+[sim] Energy for transitions = 0.077930J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.768812J
+[sim] 15.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 96.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.427526s
+[sim] Total time in state Run = 1.681545s
+[sim] Total time in state Idle = 0.581448s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.076270s
+[sim] N. of transitions = 7627
+[sim] Energy for transitions = 0.076270J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.777960J
+[sim] 14.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 104.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.457661s
+[sim] Total time in state Run = 1.711680s
+[sim] Total time in state Idle = 0.551313s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.074250s
+[sim] N. of transitions = 7425
+[sim] Energy for transitions = 0.074250J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.786488J
+[sim] 13.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 112.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.487041s
+[sim] Total time in state Run = 1.741060s
+[sim] Total time in state Idle = 0.521933s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.072510s
+[sim] N. of transitions = 7251
+[sim] Energy for transitions = 0.072510J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.795031J
+[sim] 12.2 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 120.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.515735s
+[sim] Total time in state Run = 1.769754s
+[sim] Total time in state Idle = 0.493239s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.070730s
+[sim] N. of transitions = 7073
+[sim] Energy for transitions = 0.070730J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.803294J
+[sim] 11.3 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 128.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.543669s
+[sim] Total time in state Run = 1.797688s
+[sim] Total time in state Idle = 0.465305s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.068630s
+[sim] N. of transitions = 6863
+[sim] Energy for transitions = 0.068630J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.810970J
+[sim] 10.4 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 136.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.570765s
+[sim] Total time in state Run = 1.824784s
+[sim] Total time in state Idle = 0.438209s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.066670s
+[sim] N. of transitions = 6667
+[sim] Energy for transitions = 0.066670J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.818494J
+[sim] 9.6 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 144.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.597053s
+[sim] Total time in state Run = 1.851072s
+[sim] Total time in state Idle = 0.411921s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.064630s
+[sim] N. of transitions = 6463
+[sim] Energy for transitions = 0.064630J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.825655J
+[sim] 8.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 152.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.622490s
+[sim] Total time in state Run = 1.876509s
+[sim] Total time in state Idle = 0.386484s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.062230s
+[sim] N. of transitions = 6223
+[sim] Energy for transitions = 0.062230J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.832158J
+[sim] 8.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 160.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.647070s
+[sim] Total time in state Run = 1.901089s
+[sim] Total time in state Idle = 0.361904s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.060530s
+[sim] N. of transitions = 6053
+[sim] Energy for transitions = 0.060530J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.839061J
+[sim] 7.3 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 168.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.670965s
+[sim] Total time in state Run = 1.924984s
+[sim] Total time in state Idle = 0.338009s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.058590s
+[sim] N. of transitions = 5859
+[sim] Energy for transitions = 0.058590J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.845484J
+[sim] 6.6 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 176.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.694037s
+[sim] Total time in state Run = 1.948056s
+[sim] Total time in state Idle = 0.314937s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.056550s
+[sim] N. of transitions = 5655
+[sim] Energy for transitions = 0.056550J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.851519J
+[sim] 5.9 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 184.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.716350s
+[sim] Total time in state Run = 1.970369s
+[sim] Total time in state Idle = 0.292624s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.054570s
+[sim] N. of transitions = 5457
+[sim] Energy for transitions = 0.054570J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.857349J
+[sim] 5.3 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 192.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.737803s
+[sim] Total time in state Run = 1.991822s
+[sim] Total time in state Idle = 0.271171s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.052410s
+[sim] N. of transitions = 5241
+[sim] Energy for transitions = 0.052410J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.862697J
+[sim] 4.7 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 200.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.758421s
+[sim] Total time in state Run = 2.012440s
+[sim] Total time in state Idle = 0.250553s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.050430s
+[sim] N. of transitions = 5043
+[sim] Energy for transitions = 0.050430J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.867934J
+[sim] 4.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 208.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.778299s
+[sim] Total time in state Run = 2.032318s
+[sim] Total time in state Idle = 0.230675s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.048490s
+[sim] N. of transitions = 4849
+[sim] Energy for transitions = 0.048490J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.872951J
+[sim] 3.6 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 216.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.797302s
+[sim] Total time in state Run = 2.051321s
+[sim] Total time in state Idle = 0.211672s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.046210s
+[sim] N. of transitions = 4621
+[sim] Energy for transitions = 0.046210J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.877322J
+[sim] 3.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 224.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.815406s
+[sim] Total time in state Run = 2.069425s
+[sim] Total time in state Idle = 0.193568s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.044110s
+[sim] N. of transitions = 4411
+[sim] Energy for transitions = 0.044110J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.881558J
+[sim] 2.6 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 232.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.832703s
+[sim] Total time in state Run = 2.086722s
+[sim] Total time in state Idle = 0.176271s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.042230s
+[sim] N. of transitions = 4223
+[sim] Energy for transitions = 0.042230J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.885732J
+[sim] 2.2 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 240.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.849212s
+[sim] Total time in state Run = 2.103231s
+[sim] Total time in state Idle = 0.159762s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.039950s
+[sim] N. of transitions = 3995
+[sim] Energy for transitions = 0.039950J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.889231J
+[sim] 1.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 248.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.864849s
+[sim] Total time in state Run = 2.118868s
+[sim] Total time in state Idle = 0.144125s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.038130s
+[sim] N. of transitions = 3813
+[sim] Energy for transitions = 0.038130J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.892883J
+[sim] 1.4 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 256.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.879676s
+[sim] Total time in state Run = 2.133695s
+[sim] Total time in state Idle = 0.129298s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.035830s
+[sim] N. of transitions = 3583
+[sim] Energy for transitions = 0.035830J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.895773J
+[sim] 1.0 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 264.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.893727s
+[sim] Total time in state Run = 2.147746s
+[sim] Total time in state Idle = 0.115247s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.034150s
+[sim] N. of transitions = 3415
+[sim] Energy for transitions = 0.034150J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.899011J
+[sim] 0.7 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 272.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.906984s
+[sim] Total time in state Run = 2.161003s
+[sim] Total time in state Idle = 0.101990s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.032130s
+[sim] N. of transitions = 3213
+[sim] Energy for transitions = 0.032130J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.901631J
+[sim] 0.4 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 280.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.919438s
+[sim] Total time in state Run = 2.173457s
+[sim] Total time in state Idle = 0.089536s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.030070s
+[sim] N. of transitions = 3007
+[sim] Energy for transitions = 0.030070J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.903930J
+[sim] 0.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 288.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.931164s
+[sim] Total time in state Run = 2.185183s
+[sim] Total time in state Idle = 0.077810s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.028230s
+[sim] N. of transitions = 2823
+[sim] Energy for transitions = 0.028230J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.906194J
+[sim] -0.1 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 296.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.942092s
+[sim] Total time in state Run = 2.196111s
+[sim] Total time in state Idle = 0.066882s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.025890s
+[sim] N. of transitions = 2589
+[sim] Energy for transitions = 0.025890J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.907679J
+[sim] -0.3 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 304.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.952151s
+[sim] Total time in state Run = 2.206170s
+[sim] Total time in state Idle = 0.056823s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.024070s
+[sim] N. of transitions = 2407
+[sim] Energy for transitions = 0.024070J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.909379J
+[sim] -0.5 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 312.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.961379s
+[sim] Total time in state Run = 2.215398s
+[sim] Total time in state Idle = 0.047595s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.022010s
+[sim] N. of transitions = 2201
+[sim] Energy for transitions = 0.022010J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.910549J
+[sim] -0.6 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 320.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.969838s
+[sim] Total time in state Run = 2.223857s
+[sim] Total time in state Idle = 0.039136s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.020030s
+[sim] N. of transitions = 2003
+[sim] Energy for transitions = 0.020030J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.911530J
+[sim] -0.7 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 328.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.977448s
+[sim] Total time in state Run = 2.231467s
+[sim] Total time in state Idle = 0.031526s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.017960s
+[sim] N. of transitions = 1796
+[sim] Energy for transitions = 0.017960J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.912123J
+[sim] -0.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 336.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.984294s
+[sim] Total time in state Run = 2.238313s
+[sim] Total time in state Idle = 0.024680s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.016060s
+[sim] N. of transitions = 1606
+[sim] Energy for transitions = 0.016060J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.912619J
+[sim] -0.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 344.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.990331s
+[sim] Total time in state Run = 2.244350s
+[sim] Total time in state Idle = 0.018643s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.013800s
+[sim] N. of transitions = 1380
+[sim] Energy for transitions = 0.013800J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.912472J
+[sim] -0.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 352.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.995453s
+[sim] Total time in state Run = 2.249472s
+[sim] Total time in state Idle = 0.013521s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.011560s
+[sim] N. of transitions = 1156
+[sim] Energy for transitions = 0.011560J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.912025J
+[sim] -0.8 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 360.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 0.999721s
+[sim] Total time in state Run = 2.253740s
+[sim] Total time in state Idle = 0.009253s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.009440s
+[sim] N. of transitions = 944
+[sim] Energy for transitions = 0.009440J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.911399J
+[sim] -0.7 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 368.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 1.003150s
+[sim] Total time in state Run = 2.257169s
+[sim] Total time in state Idle = 0.005824s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.007380s
+[sim] N. of transitions = 738
+[sim] Energy for transitions = 0.007380J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.910539J
+[sim] -0.6 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 376.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 1.005764s
+[sim] Total time in state Run = 2.259783s
+[sim] Total time in state Idle = 0.003210s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.005540s
+[sim] N. of transitions = 554
+[sim] Energy for transitions = 0.005540J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.909614J
+[sim] -0.5 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 384.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 1.007635s
+[sim] Total time in state Run = 2.261654s
+[sim] Total time in state Idle = 0.001339s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.003480s
+[sim] N. of transitions = 348
+[sim] Energy for transitions = 0.003480J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.908209J
+[sim] -0.3 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 392.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 1.008709s
+[sim] Total time in state Run = 2.262728s
+[sim] Total time in state Idle = 0.000265s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.001560s
+[sim] N. of transitions = 156
+[sim] Energy for transitions = 0.001560J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.906664J
+[sim] -0.2 percent of energy saved.
+
+**************************** DPM SIMULATION ****************************
+Timeout to idle: 400.000000
+Timeout to sleep: 0.000000
+[psm] State Run: power = 400.00mW
+[psm] State Idle: power = 50.00mW
+[psm] State Sleep: power = 0.16mW
+[psm] Run -> Idle transition: energy  = 10uJ, time = 10us
+[psm] Run -> Sleep transition: energy  = 10uJ, time = 90us
+[psm] Idle -> Run transition: energy  = 10uJ, time = 10us
+[psm] Sleep -> Run transition: energy  = 30uJ, time = 160us
+
+[sim] Active time in profile = 1.254019s 
+[sim] Idle time in profile = 1.008974s
+[sim] Total time = 2.262993s
+[sim] Timeout waiting time = 1.008974s
+[sim] Total time in state Run = 2.262993s
+[sim] Total time in state Idle = 0.000000s
+[sim] Total time in state Sleep = 0.000000s
+[sim] Time overhead for transition = 0.000000s
+[sim] N. of transitions = 0
+[sim] Energy for transitions = 0.000000J
+[sim] Energy w/o DPM = 0.905197J, Energy w DPM = 0.905197J
+[sim] 0.0 percent of energy saved.
