@@ -7,9 +7,9 @@
 
 This project consisted of applying Dynamic Power Management (DPM) on a series of worloaks by simulating and modifying a Power State Machine (PSM) written in C language. The manager implements two strategies:
 	
-	* Timeout Policy, that keeps the system in a high power consuming Run state even after activity has ceased, transitioning to a low power state only after a certain threshold is reached, i.e., the timeout value.
+* Timeout Policy, that keeps the system in a high power consuming Run state even after activity has ceased, transitioning to a low power state only after a certain threshold is reached, i.e., the timeout value.
 	
-	* History Policy, that is a predictive policy, i.e., it estimates the time to transition based on the previous workload patterns. The computed value Tpred is compared to the time to Idle and Sleep thresholds. After a decision is taken the system is able to reach any one of the low-power states independently.
+* History Policy, that is a predictive policy, i.e., it estimates the time to transition based on the previous workload patterns. The computed value Tpred is compared to the time to Idle and Sleep thresholds. After a decision is taken the system is able to reach any one of the low-power states independently.
 
 ### Energy efficient image processing
 
