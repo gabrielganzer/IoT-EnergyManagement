@@ -13,7 +13,7 @@ This project consisted of applying Dynamic Power Management (DPM) on a series of
 
 ### Energy efficient image processing
 
-Evaluation of several image transformations used in Organic Light-Emitting Diode (OLED) displays as a mean of reducing power consumption. Compensation techniques are also used in conjunction with Dynamic Voltage Scaling (DVS) for the same goal.
+Evaluation of several image transformations used in Organic Light-Emitting Diode (OLED) displays as a mean of reducing power consumption using MATLAB functions. Compensation techniques are also used in conjunction with Dynamic Voltage Scaling (DVS) for the same goal.
 
 ### Energy storage, generation and conversion
 
